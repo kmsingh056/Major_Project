@@ -7,6 +7,8 @@ import os
 import magic
 import tempfile
 
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+
 # Set Tesseract path if needed (Windows example)
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
